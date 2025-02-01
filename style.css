@@ -5,10 +5,98 @@
 }
 
 .header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0,0,0,0.6)), url(images/background.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(images/background.jpg);
     min-height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     background-color: black;
+    padding: 20px;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo img {
+    max-width: 200px;
+    margin-left: 100px;
+}
+
+.nav-btns {
+    margin-right: 100px;
+}
+
+.globe {
+    line-height: 5px;
+    padding: 5px 14px;
+    background: inherit;
+    color: white;
+    border: 1px solid white;
+    border-radius: 4px;
+    margin: 10px;
+}
+
+.sign-in {
+    background-color: red;
+    color: white;
+    padding: 5px 9px;
+    font-size: 14px;
+    font-weight: 500;
+    border: 0;
+    border-radius: 5px;
+}
+
+.content {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    padding-top: 17%;
+}
+
+.content h1 {
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+.content h3 {
+ font-size: 30px;
+ font-weight: 500;
+ margin: 10px;
+}
+
+.content p {
+    font-size: 20px;
+    font-weight: 500;
+    margin: 10px;
+}
+
+.content form {
+    margin-top: 20px;
+}
+
+input {
+    border: 1px solid green;
+    border-radius: 4px;
+    width: 20%;
+    padding: 10px 10px;
+    font-size: 11px;
+    background-color: inherit;
+    font-size: 12px;
+    color: white;
+}
+
+#get-started-btn {
+    background-color: red;
+    color: white;
+    padding: 10px 25px;
+    font-size: 14px;
+    font-weight: 600;
+    border: 0;
+    border-radius: 4px;
 }
