@@ -128,3 +128,61 @@ input {
     }
 }
      */
+
+
+@media only screen and (max-width: 1200px) {
+
+    .logo,
+    .nav-btns {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .navigation {
+        margin: 0;
+    }
+
+    .content {
+        max-width: 70%;
+        margin-top: 10%;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+
+    .logo,
+    .nav-btns {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .navigation {
+        margin: 0;
+    }
+
+    .content {
+        max-width: 85%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+    .logo,
+    .nav-btns {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .navigation {
+        margin-top: 0;
+    }
+
+    .content {
+        max-width: 100%;
+        margin-top: 10%;
+    }
+
+    .header {
+        padding: 5px 20px;
+    }
+}
