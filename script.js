@@ -1,4 +1,4 @@
-const signInBtn = document.querySelector(".sign-in")
+const signInBtn = document.querySelector(".sign-in-btn")
 const emailForm = document.querySelector("form")
 
 
