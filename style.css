@@ -112,8 +112,7 @@ input {
     display: flex;
     flex-direction: column;
     color: #FFFFFF;
-    /* background-color: rgba(0, 0, 0, 0.4); */
-    background-color: red;
+    background-color: rgba(0, 0, 0, 0.4);
     border-radius: 4px;
     min-height: 100vh;
     max-width: 450px;
@@ -123,10 +122,23 @@ input {
 }
 
 .sign-in-form h1 {
-    font-size:  32px;
-    padding: 55px;
+    font-size: 32px;
+    padding: 33px 102px;
 }
 
+.sign-in {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.sign-in input {
+    width: 100%;
+    text-align: left;
+
+}
 
 @media only screen and (max-width: 1200px) {
 
